@@ -16,175 +16,175 @@
 var spans = document.getElementById("content").getElementsByTagName("span")
 
 var SovaQuirkOn = ""
-var SovaQuirk = GM_getValue("SovaQuirk")
+var SovaQuirk = GM_getValue("SovaQuirk", true)
 if (SovaQuirk) SovaQuirkOn = " ✔︎"
 
 var DismasQuirkOn = ""
-var DismasQuirk = GM_getValue("DismasQuirk")
+var DismasQuirk = GM_getValue("DismasQuirk", true)
 if (DismasQuirk) DismasQuirkOn = " ✔︎"
 
 var ArcjecQuirkOn = ""
-var ArcjecQuirk = GM_getValue("ArcjecQuirk")
+var ArcjecQuirk = GM_getValue("ArcjecQuirk", true)
 if (ArcjecQuirk) ArcjecQuirkOn = " ✔︎"
 
 var JenthaQuirkOn = ""
-var JenthaQuirk = GM_getValue("JenthaQuirk")
+var JenthaQuirk = GM_getValue("JenthaQuirk", true)
 if (JenthaQuirk) JenthaQuirkOn = " ✔︎"
 
 var EllseeQuirkOn = ""
-var EllseeQuirk = GM_getValue("EllseeQuirk")
+var EllseeQuirk = GM_getValue("EllseeQuirk", true)
 if (EllseeQuirk) EllseeQuirkOn = " ✔︎"
 
 var AlbionQuirkOn = ""
-var AlbionQuirk = GM_getValue("AlbionQuirk")
+var AlbionQuirk = GM_getValue("AlbionQuirk", true)
 if (AlbionQuirk) AlbionQuirkOn = " ✔︎"
 
 var LaivanQuirkOn = ""
-var LaivanQuirk = GM_getValue("LaivanQuirk")
+var LaivanQuirk = GM_getValue("LaivanQuirk", true)
 if (LaivanQuirk) LaivanQuirkOn = " ✔︎"
 
 var OcceusQuirkOn = ""
-var OcceusQuirk = GM_getValue("OcceusQuirk")
+var OcceusQuirk = GM_getValue("OcceusQuirk", true)
 if (OcceusQuirk) OcceusQuirkOn = " ✔︎"
 
 var TazQuirkOn = ""
-var TazQuirk = GM_getValue("TazQuirk")
+var TazQuirk = GM_getValue("TazQuirk", true)
 if (TazQuirk) TazQuirkOn = " ✔︎"
 
 var MurritQuirkOn = ""
-var MurritQuirk = GM_getValue("MurritQuirk")
+var MurritQuirk = GM_getValue("MurritQuirk", true)
 if (MurritQuirk) MurritQuirkOn = " ✔︎"
 
 var HamifiQuirkOn = ""
-var HamifiQuirk = GM_getValue("HamifiQuirk")
+var HamifiQuirk = GM_getValue("HamifiQuirk", true)
 if (HamifiQuirk) HamifiQuirkOn = " ✔︎"
 
 var SestroQuirkOn = ""
-var SestroQuirk = GM_getValue("SestroQuirk")
+var SestroQuirk = GM_getValue("SestroQuirk", true)
 if (SestroQuirk) SestroQuirkOn = " ✔︎"
 
 var RodereQuirkOn = ""
-var RodereQuirk = GM_getValue("RodereQuirk")
+var RodereQuirk = GM_getValue("RodereQuirk", true)
 if (RodereQuirk) RodereQuirkOn = " ✔︎"
 
 var VelliaQuirkOn = ""
-var VelliaQuirk = GM_getValue("VelliaQuirk")
+var VelliaQuirk = GM_getValue("VelliaQuirk", true)
 if (VelliaQuirk) VelliaQuirkOn = " ✔︎"
 
 var PozzolQuirkOn = ""
-var PozzolQuirk = GM_getValue("PozzolQuirk")
+var PozzolQuirk = GM_getValue("PozzolQuirk", true)
 if (PozzolQuirk) PozzolQuirkOn = " ✔︎"
 
 var NeilnaQuirkOn = ""
-var NeilnaQuirk = GM_getValue("NeilnaQuirk")
+var NeilnaQuirk = GM_getValue("NeilnaQuirk", true)
 if (NeilnaQuirk) NeilnaQuirkOn = " ✔︎"
 
 var KeiksiQuirkOn = ""
-var KeiksiQuirk = GM_getValue("KeiksiQuirk")
+var KeiksiQuirk = GM_getValue("KeiksiQuirk", true)
 if (KeiksiQuirk) KeiksiQuirkOn = " ✔︎"
 
 var VilcusQuirkOn = ""
-var VilcusQuirk = GM_getValue("VilcusQuirk")
+var VilcusQuirk = GM_getValue("VilcusQuirk", true)
 if (VilcusQuirk) VilcusQuirkOn = " ✔︎"
 
 var NecronQuirkOn = ""
-var NecronQuirk = GM_getValue("NecronQuirk")
+var NecronQuirk = GM_getValue("NecronQuirk", true)
 if (NecronQuirk) NecronQuirkOn = " ✔︎"
 
 var MshiriQuirkOn = ""
-var MshiriQuirk = GM_getValue("MshiriQuirk")
+var MshiriQuirk = GM_getValue("MshiriQuirk", true)
 if (MshiriQuirk) MshiriQuirkOn = " ✔︎"
 
 var RacrenQuirkOn = ""
-var RacrenQuirk = GM_getValue("RacrenQuirk")
+var RacrenQuirk = GM_getValue("RacrenQuirk", true)
 if (RacrenQuirk) RacrenQuirkOn = " ✔︎"
 
 var GarnieQuirkOn = ""
-var GarnieQuirk = GM_getValue("GarnieQuirk")
+var GarnieQuirk = GM_getValue("GarnieQuirk", true)
 if (GarnieQuirk) GarnieQuirkOn = " ✔︎"
 
 var PascalQuirkOn = ""
-var PascalQuirk = GM_getValue("PascalQuirk")
+var PascalQuirk = GM_getValue("PascalQuirk", true)
 if (PascalQuirk) PascalQuirkOn = " ✔︎"
 
 var GlomerQuirkOn = ""
-var GlomerQuirk = GM_getValue("GlomerQuirk")
+var GlomerQuirk = GM_getValue("GlomerQuirk", true)
 if (GlomerQuirk) GlomerQuirkOn = " ✔︎"
 
 var BytconQuirkOn = ""
-var BytconQuirk = GM_getValue("BytconQuirk")
+var BytconQuirk = GM_getValue("BytconQuirk", true)
 if (BytconQuirk) BytconQuirkOn = " ✔︎"
 
 var CrytumQuirkOn = ""
-var CrytumQuirk = GM_getValue("CrytumQuirk")
+var CrytumQuirk = GM_getValue("CrytumQuirk", true)
 if (CrytumQuirk) CrytumQuirkOn = " ✔︎"
 
 var EndariQuirkOn = ""
-var EndariQuirk = GM_getValue("EndariQuirk")
+var EndariQuirk = GM_getValue("EndariQuirk", true)
 if (EndariQuirk) EndariQuirkOn = " ✔︎"
 
 var SabineQuirkOn = ""
-var SabineQuirk = GM_getValue("SabineQuirk")
+var SabineQuirk = GM_getValue("SabineQuirk", true)
 if (SabineQuirk) SabineQuirkOn = " ✔︎"
 
 var SirageQuirkOn = ""
-var SirageQuirk = GM_getValue("SirageQuirk")
+var SirageQuirk = GM_getValue("SirageQuirk", true)
 if (SirageQuirk) SirageQuirkOn = " ✔︎"
 
 var RypiteQuirkOn = ""
-var RypiteQuirk = GM_getValue("RypiteQuirk")
+var RypiteQuirk = GM_getValue("RypiteQuirk", true)
 if (RypiteQuirk) RypiteQuirkOn = " ✔︎"
 
 var HayyanQuirkOn = ""
-var HayyanQuirk = GM_getValue("HayyanQuirk")
+var HayyanQuirk = GM_getValue("HayyanQuirk", true)
 if (HayyanQuirk) HayyanQuirkOn = " ✔︎"
 
 var CuliumQuirkOn = ""
-var CuliumQuirk = GM_getValue("CuliumQuirk")
+var CuliumQuirk = GM_getValue("CuliumQuirk", true)
 if (CuliumQuirk) CuliumQuirkOn = " ✔︎"
 
 var RaurouQuirkOn = ""
-var RaurouQuirk = GM_getValue("RaurouQuirk")
+var RaurouQuirk = GM_getValue("RaurouQuirk", true)
 if (RaurouQuirk) RaurouQuirkOn = " ✔︎"
 
 var CinareQuirkOn = ""
-var CinareQuirk = GM_getValue("CinareQuirk")
+var CinareQuirk = GM_getValue("CinareQuirk", true)
 if (CinareQuirk) CinareQuirkOn = " ✔︎"
 
 var ValtelQuirkOn = ""
-var ValtelQuirk = GM_getValue("ValtelQuirk")
+var ValtelQuirk = GM_getValue("ValtelQuirk", true)
 if (ValtelQuirk) ValtelQuirkOn = " ✔︎"
 
 var HusskeQuirkOn = ""
-var HusskeQuirk = GM_getValue("HusskeQuirk")
+var HusskeQuirk = GM_getValue("HusskeQuirk", true)
 if (HusskeQuirk) HusskeQuirkOn = " ✔︎"
 
 var SecilyQuirkOn = ""
-var SecilyQuirk = GM_getValue("SecilyQuirk")
+var SecilyQuirk = GM_getValue("SecilyQuirk", true)
 if (SecilyQuirk) SecilyQuirkOn = " ✔︎"
 
 var VivifierQuirkOn = ""
-var VivifierQuirk = GM_getValue("VivifierQuirk")
+var VivifierQuirk = GM_getValue("VivifierQuirk", true)
 if (VivifierQuirk) VivifierQuirkOn = " ✔︎"
 
 var ForgivenQuirkOn = ""
-var ForgivenQuirk = GM_getValue("ForgivenQuirk")
+var ForgivenQuirk = GM_getValue("ForgivenQuirk", true)
 if (ForgivenQuirk) ForgivenQuirkOn = " ✔︎"
 
 var ExecutiveQuirkOn = ""
-var ExecutiveQuirk = GM_getValue("ExecutiveQuirk")
+var ExecutiveQuirk = GM_getValue("ExecutiveQuirk", true)
 if (ExecutiveQuirk) ExecutiveQuirkOn = " ✔︎"
 
 var disableFontsOn = ""
-var disableFonts = GM_getValue("disableFonts")
+var disableFonts = GM_getValue("disableFonts", true)
 if (disableFonts) disableFontsOn = " ✔︎"
 
 var GuardianspiritQuirkOn = ""
-var GuardianspiritQuirk = GM_getValue("GuardianspiritQuirk")
+var GuardianspiritQuirk = GM_getValue("GuardianspiritQuirk", true)
 if (GuardianspiritQuirk) GuardianspiritQuirkOn = " ✔︎"
 
 var SpecialCSSOn = ""
-var SpecialCSS = GM_getValue("SpecialCSS")
+var SpecialCSS = GM_getValue("SpecialCSS", true)
 if (SpecialCSS) {
   SpecialCSSOn = " ✔︎"
   if (document.getElementsByClassName("edolon-theme")[0]) {
@@ -196,7 +196,7 @@ if (SpecialCSS) {
 }
 
 var TextIMGOn = ""
-var TextIMG = GM_getValue("TextIMG")
+var TextIMG = GM_getValue("TextIMG", true)
 if (TextIMG) TextIMGOn = " ✔︎"
 
 for (let i = 0; i < spans.length; i++) {
@@ -513,50 +513,47 @@ for (let i = 0; i < spans.length; i++) {
     spans[i].innerHTML = text
 }
 
-
-GM_registerMenuCommand("Sova Dequirk"+SovaQuirkOn, () => GM_setValue("SovaQuirk", !SovaQuirk));
-GM_registerMenuCommand("Dismas Dequirk"+DismasQuirkOn, () => GM_setValue("DismasQuirk", !DismasQuirk));
-GM_registerMenuCommand("Arcjec Dequirk"+ArcjecQuirkOn, () => GM_setValue("ArcjecQuirk", !ArcjecQuirk));
-GM_registerMenuCommand("Jentha Dequirk"+JenthaQuirkOn, () => GM_setValue("JenthaQuirk", !JenthaQuirk));
-GM_registerMenuCommand("Ellsee Dequirk"+EllseeQuirkOn, () => GM_setValue("EllseeQuirk", !EllseeQuirk));
 GM_registerMenuCommand("Albion Dequirk"+AlbionQuirkOn, () => GM_setValue("AlbionQuirk", !AlbionQuirk));
-GM_registerMenuCommand("Laivan Dequirk"+LaivanQuirkOn, () => GM_setValue("LaivanQuirk", !LaivanQuirk));
-GM_registerMenuCommand("Occeus Dequirk"+OcceusQuirkOn, () => GM_setValue("OcceusQuirk", !OcceusQuirk));
-GM_registerMenuCommand("Taz Dequirk"+TazQuirkOn, () => GM_setValue("TazQuirk", !TazQuirk));
-GM_registerMenuCommand("Murrit Dequirk"+MurritQuirkOn, () => GM_setValue("MurritQuirk", !MurritQuirk));
-
-GM_registerMenuCommand("Hamifi Dequirk"+HamifiQuirkOn, () => GM_setValue("HamifiQuirk", !HamifiQuirk));
-GM_registerMenuCommand("Sestro Dequirk"+SestroQuirkOn, () => GM_setValue("SestroQuirk", !SestroQuirk));
-GM_registerMenuCommand("Rodere Dequirk"+RodereQuirkOn, () => GM_setValue("RodereQuirk", !RodereQuirk));
-GM_registerMenuCommand("Vellia Dequirk"+VelliaQuirkOn, () => GM_setValue("VelliaQuirk", !VelliaQuirk));
-GM_registerMenuCommand("Pozzol Dequirk"+PozzolQuirkOn, () => GM_setValue("PozzolQuirk", !PozzolQuirk));
-GM_registerMenuCommand("Neilna Dequirk"+NeilnaQuirkOn, () => GM_setValue("NeilnaQuirk", !NeilnaQuirk));
-GM_registerMenuCommand("Keiksi Dequirk"+KeiksiQuirkOn, () => GM_setValue("KeiksiQuirk", !KeiksiQuirk));
-GM_registerMenuCommand("Vilcus Dequirk"+VilcusQuirkOn, () => GM_setValue("VilcusQuirk", !VilcusQuirk));
-GM_registerMenuCommand("Necron Dequirk"+NecronQuirkOn, () => GM_setValue("NecronQuirk", !NecronQuirk));
-GM_registerMenuCommand("Mshiri Dequirk"+MshiriQuirkOn, () => GM_setValue("MshiriQuirk", !MshiriQuirk));
-GM_registerMenuCommand("Racren Dequirk"+RacrenQuirkOn, () => GM_setValue("RacrenQuirk", !RacrenQuirk));
-GM_registerMenuCommand("Garnie Dequirk"+GarnieQuirkOn, () => GM_setValue("GarnieQuirk", !GarnieQuirk));
-GM_registerMenuCommand("Pascal Dequirk"+PascalQuirkOn, () => GM_setValue("PascalQuirk", !PascalQuirk));
-GM_registerMenuCommand("Glomer Dequirk"+GlomerQuirkOn, () => GM_setValue("GlomerQuirk", !GlomerQuirk));
+GM_registerMenuCommand("Arcjec Dequirk"+ArcjecQuirkOn, () => GM_setValue("ArcjecQuirk", !ArcjecQuirk));
 GM_registerMenuCommand("Bytcon Dequirk"+BytconQuirkOn, () => GM_setValue("BytconQuirk", !BytconQuirk));
-GM_registerMenuCommand("Crytum Dequirk"+CrytumQuirkOn, () => GM_setValue("CrytumQuirk", !CrytumQuirk));
-GM_registerMenuCommand("Endari Dequirk"+EndariQuirkOn, () => GM_setValue("EndariQuirk", !EndariQuirk));
-GM_registerMenuCommand("Sabine Dequirk"+SabineQuirkOn, () => GM_setValue("SabineQuirk", !SabineQuirk));
-GM_registerMenuCommand("Sirage Dequirk"+SirageQuirkOn, () => GM_setValue("SirageQuirk", !SirageQuirk));
-GM_registerMenuCommand("Rypite Dequirk"+RypiteQuirkOn, () => GM_setValue("RypiteQuirk", !RypiteQuirk));
-GM_registerMenuCommand("Hayyan Dequirk"+HayyanQuirkOn, () => GM_setValue("HayyanQuirk", !HayyanQuirk));
-GM_registerMenuCommand("Culium Dequirk"+CuliumQuirkOn, () => GM_setValue("CuliumQuirk", !CuliumQuirk));
-GM_registerMenuCommand("Raurou Dequirk"+RaurouQuirkOn, () => GM_setValue("RaurouQuirk", !RaurouQuirk));
 GM_registerMenuCommand("Cinare Dequirk"+CinareQuirkOn, () => GM_setValue("CinareQuirk", !CinareQuirk));
-GM_registerMenuCommand("Valtel Dequirk"+ValtelQuirkOn, () => GM_setValue("ValtelQuirk", !ValtelQuirk));
-GM_registerMenuCommand("Husske Dequirk"+HusskeQuirkOn, () => GM_setValue("HusskeQuirk", !HusskeQuirk));
-GM_registerMenuCommand("Secily Dequirk"+SecilyQuirkOn, () => GM_setValue("SecilyQuirk", !SecilyQuirk));
-
-GM_registerMenuCommand("Vivifier Dequirk"+VivifierQuirkOn, () => GM_setValue("VivifierQuirk", !VivifierQuirk));
-GM_registerMenuCommand("Forgiven Dequirk"+ForgivenQuirkOn, () => GM_setValue("ForgivenQuirk", !ForgivenQuirk));
+GM_registerMenuCommand("Crytum Dequirk"+CrytumQuirkOn, () => GM_setValue("CrytumQuirk", !CrytumQuirk));
+GM_registerMenuCommand("Culium Dequirk"+CuliumQuirkOn, () => GM_setValue("CuliumQuirk", !CuliumQuirk));
+GM_registerMenuCommand("Dismas Dequirk"+DismasQuirkOn, () => GM_setValue("DismasQuirk", !DismasQuirk));
+GM_registerMenuCommand("Ellsee Dequirk"+EllseeQuirkOn, () => GM_setValue("EllseeQuirk", !EllseeQuirk));
+GM_registerMenuCommand("Endari Dequirk"+EndariQuirkOn, () => GM_setValue("EndariQuirk", !EndariQuirk));
 GM_registerMenuCommand("Executive Dequirk"+ExecutiveQuirkOn, () => GM_setValue("ExecutiveQuirk", !ExecutiveQuirk));
+GM_registerMenuCommand("Forgiven Dequirk"+ForgivenQuirkOn, () => GM_setValue("ForgivenQuirk", !ForgivenQuirk));
+GM_registerMenuCommand("Garnie Dequirk"+GarnieQuirkOn, () => GM_setValue("GarnieQuirk", !GarnieQuirk));
+GM_registerMenuCommand("Glomer Dequirk"+GlomerQuirkOn, () => GM_setValue("GlomerQuirk", !GlomerQuirk));
 GM_registerMenuCommand("Guardianspirit Dequirk"+GuardianspiritQuirkOn, () => GM_setValue("GuardianspiritQuirk", !GuardianspiritQuirk));
+GM_registerMenuCommand("Hamifi Dequirk"+HamifiQuirkOn, () => GM_setValue("HamifiQuirk", !HamifiQuirk));
+GM_registerMenuCommand("Hayyan Dequirk"+HayyanQuirkOn, () => GM_setValue("HayyanQuirk", !HayyanQuirk));
+GM_registerMenuCommand("Husske Dequirk"+HusskeQuirkOn, () => GM_setValue("HusskeQuirk", !HusskeQuirk));
+GM_registerMenuCommand("Jentha Dequirk"+JenthaQuirkOn, () => GM_setValue("JenthaQuirk", !JenthaQuirk));
+GM_registerMenuCommand("Keiksi Dequirk"+KeiksiQuirkOn, () => GM_setValue("KeiksiQuirk", !KeiksiQuirk));
+GM_registerMenuCommand("Laivan Dequirk"+LaivanQuirkOn, () => GM_setValue("LaivanQuirk", !LaivanQuirk));
+GM_registerMenuCommand("Mshiri Dequirk"+MshiriQuirkOn, () => GM_setValue("MshiriQuirk", !MshiriQuirk));
+GM_registerMenuCommand("Murrit Dequirk"+MurritQuirkOn, () => GM_setValue("MurritQuirk", !MurritQuirk));
+GM_registerMenuCommand("Necron Dequirk"+NecronQuirkOn, () => GM_setValue("NecronQuirk", !NecronQuirk));
+GM_registerMenuCommand("Neilna Dequirk"+NeilnaQuirkOn, () => GM_setValue("NeilnaQuirk", !NeilnaQuirk));
+GM_registerMenuCommand("Occeus Dequirk"+OcceusQuirkOn, () => GM_setValue("OcceusQuirk", !OcceusQuirk));
+GM_registerMenuCommand("Pascal Dequirk"+PascalQuirkOn, () => GM_setValue("PascalQuirk", !PascalQuirk));
+GM_registerMenuCommand("Pozzol Dequirk"+PozzolQuirkOn, () => GM_setValue("PozzolQuirk", !PozzolQuirk));
+GM_registerMenuCommand("Racren Dequirk"+RacrenQuirkOn, () => GM_setValue("RacrenQuirk", !RacrenQuirk));
+GM_registerMenuCommand("Raurou Dequirk"+RaurouQuirkOn, () => GM_setValue("RaurouQuirk", !RaurouQuirk));
+GM_registerMenuCommand("Rodere Dequirk"+RodereQuirkOn, () => GM_setValue("RodereQuirk", !RodereQuirk));
+GM_registerMenuCommand("Rypite Dequirk"+RypiteQuirkOn, () => GM_setValue("RypiteQuirk", !RypiteQuirk));
+GM_registerMenuCommand("Sabine Dequirk"+SabineQuirkOn, () => GM_setValue("SabineQuirk", !SabineQuirk));
+GM_registerMenuCommand("Secily Dequirk"+SecilyQuirkOn, () => GM_setValue("SecilyQuirk", !SecilyQuirk));
+GM_registerMenuCommand("Sestro Dequirk"+SestroQuirkOn, () => GM_setValue("SestroQuirk", !SestroQuirk));
+GM_registerMenuCommand("Sirage Dequirk"+SirageQuirkOn, () => GM_setValue("SirageQuirk", !SirageQuirk));
+GM_registerMenuCommand("Sova Dequirk"+SovaQuirkOn, () => GM_setValue("SovaQuirk", !SovaQuirk));
+GM_registerMenuCommand("Taz Dequirk"+TazQuirkOn, () => GM_setValue("TazQuirk", !TazQuirk));
+GM_registerMenuCommand("Valtel Dequirk"+ValtelQuirkOn, () => GM_setValue("ValtelQuirk", !ValtelQuirk));
+GM_registerMenuCommand("Vellia Dequirk"+VelliaQuirkOn, () => GM_setValue("VelliaQuirk", !VelliaQuirk));
+GM_registerMenuCommand("Vilcus Dequirk"+VilcusQuirkOn, () => GM_setValue("VilcusQuirk", !VilcusQuirk));
+GM_registerMenuCommand("Vivifier Dequirk"+VivifierQuirkOn, () => GM_setValue("VivifierQuirk", !VivifierQuirk));
 
 GM_registerMenuCommand("Disable all fonts"+disableFontsOn, () => GM_setValue("disableFonts", !disableFonts));
 GM_registerMenuCommand("Turn off special CSS"+SpecialCSSOn, () => GM_setValue("SpecialCSS", !SpecialCSS));
