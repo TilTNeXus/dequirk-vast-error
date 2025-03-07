@@ -10,6 +10,6 @@ Install a userscript extension like Violentmonkey
 [Click here to install the script](https://github.com/TilTNeXus/dequirk-vast-error/raw/main/dequirk-ve.user.js)
 
 ## Usage:
-Open the Violentmonkey menu while on deconreconstruction.com, and you will see a list of typing quirks to enable/disable. Reload the page after changing settings.
+Open the Violentmonkey menu while on deconreconstruction.com, and you will see a list of typing quirks to enable/disable. Reload the page after changing settings. The menu will show a checkmark next to the option when it's on, but it doesn't update until the page is reloaded.
 
 There is also some extra stuff, like disabling fonts, changing some CSS to improve readibility, and rendering the Magnum Opus gif in plain text.
