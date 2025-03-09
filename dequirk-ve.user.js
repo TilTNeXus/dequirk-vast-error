@@ -2,6 +2,7 @@
 // @name        Vast Error Dequirker
 // @namespace   Violentmonkey Scripts
 // @match       https://www.deconreconstruction.com/*
+// @match       https://deconreconstruction.com/*
 // @grant       GM_registerMenuCommand
 // @grant       GM_setValue
 // @grant       GM_getValue
